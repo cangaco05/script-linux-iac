@@ -25,7 +25,7 @@ useradd roberto -c "Roberto Santos" -s /bin/bash -m -p $(openssl passwd 123456) 
 
 useradd josefina -c "Josefina Souza" -s /bin/bash -m -p $(openssl passwd 123456) -G GRP_SEC
 useradd amanda -c "amanda Souza" -s /bin/bash -m -p $(openssl passwd 123456) -G GRP_SEC
-useradd rogerio -c "Rogerio Souza" -s /bin/bash -m -p $(openssl passwd 123456) -G GR_SEC
+useradd rogerio -c "Rogerio Souza" -s /bin/bash -m -p $(openssl passwd 123456) -G GRP_SEC
 
 echo "Dono dos Diretorios ....."
 
